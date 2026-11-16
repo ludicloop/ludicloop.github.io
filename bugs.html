@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don't bug me! - Ludic Loop Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #FAFAF9; color: #1C1917; }
+        h1, h2, h3, .serif { font-family: 'Noto Serif', serif; }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col selection:bg-stone-200">
+
+    <!-- Header / Back Button -->
+    <header class="w-full max-w-4xl mx-auto px-6 py-12 flex justify-between items-center">
+        <a href="index.html" class="serif text-xl font-bold tracking-tight hover:text-stone-500 transition-colors">&larr; Ludic Loop</a>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow w-full max-w-4xl mx-auto px-6 py-8">
+        
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 text-stone-900 serif">Don't bug me!</h1>
+        
+        <!-- 3 Images Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
+            <div class="w-full aspect-square bg-stone-200 rounded-lg overflow-hidden">
+                <!-- Certifica-te que tens bugs1.jpg, bugs2.jpg e bugs3.jpg -->
+                <img src="bugs.jpg" alt="Don't bug me! Gameplay" class="w-full h-full object-cover">
+            </div>
+            <div class="w-full aspect-square bg-stone-200 rounded-lg overflow-hidden">
+                <img src="imgs/bugs2.jpg" alt="Puzzle Grid" class="w-full h-full object-cover">
+            </div>
+            <div class="w-full aspect-square bg-stone-200 rounded-lg overflow-hidden">
+                <img src="imgs/bugs3.jpg" alt="Cute Bugs" class="w-full h-full object-cover">
+            </div>
+        </div>
+
+        <div class="max-w-2xl space-y-8 text-stone-600 font-light leading-relaxed">
+            <section>
+                <h2 class="text-xl font-bold text-stone-900 mb-3 serif">Pure Logic, Zero Fluff</h2>
+                <p>Based on classic spatial and logic mechanics, "Don't bug me!" is a puzzle game that balances cuteness with ruthless brain-teasers. The gameplay relies on pure logic, challenging grids, and a cast of quirky, humorous little bugs that just want to be sorted out.</p>
+            </section>
+
+            <section>
+                <h2 class="text-xl font-bold text-stone-900 mb-3 serif">Inclusive Design</h2>
+                <p>We believe puzzles should be for everyone. The game has been designed from the ground up with accessibility in mind, featuring a fully integrated colorblind-friendly mode so no visual cues are ever lost.</p>
+            </section>
+
+            <section class="border-t border-stone-200 pt-8 mt-8">
+                <h2 class="text-xl font-bold text-stone-900 mb-3 serif">Roadmap & Engine</h2>
+                <p>Currently being forged in the <strong>Godot Engine</strong>, our rollout plan is set in three phases:</p>
+                <ul class="list-none space-y-3 mt-4 ml-1">
+                    <li class="flex items-center"><span class="text-stone-400 mr-3">01.</span> <strong>itch.io Pre-Release:</strong> Coming in a few weeks for early feedback and balancing.</li>
+                    <li class="flex items-center"><span class="text-stone-400 mr-3">02.</span> <strong>Google Play Store:</strong> Full Android release optimized for mobile devices.</li>
+                    <li class="flex items-center"><span class="text-stone-400 mr-3">03.</span> <strong>Apple App Store:</strong> iOS port to bring the bugs to every pocket.</li>
+                </ul>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full bg-stone-100 mt-24 py-12 border-t border-stone-200">
+        <div class="max-w-4xl mx-auto px-6 text-center flex flex-col items-center">
+            <p class="text-sm text-stone-500 serif italic mb-4">Made all over the world with <span class="text-red-600 mx-1">❤</span> and peace.</p>
+            <a href="privacy.html" class="text-xs text-stone-400 uppercase tracking-widest hover:text-stone-900 transition-colors">Privacy Policy</a>
+        </div>
+    </footer>
+
+</body>
+</html>
